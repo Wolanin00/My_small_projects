@@ -41,20 +41,20 @@ class Snake(Turtle):
 
     def up(self):
         if self.head.heading() != DOWN and int(self.head.xcor()) != int(self.segments[1].xcor()):
-            print(self.head.xcor(), self.segments[1].xcor())
+            # print(self.head.xcor(), self.segments[1].xcor())
             self.head.setheading(UP)
 
     def down(self):
         if self.head.heading() != UP and int(self.head.xcor()) != int(self.segments[1].xcor()):
-            print(self.head.xcor(), self.segments[1].xcor())
+            # print(self.head.xcor(), self.segments[1].xcor())
             self.head.setheading(DOWN)
 
     def right(self):
         if self.head.heading() != LEFT and int(self.head.ycor()) != int(self.segments[1].ycor()):
-            print(self.head.ycor(), self.segments[1].ycor())
+            # print(self.head.ycor(), self.segments[1].ycor())
             self.head.setheading(RIGHT)
 
     def left(self):
         if self.head.heading() != RIGHT and int(self.head.ycor()) != int(self.segments[1].ycor()):
-            print(self.head.ycor(), self.segments[1].ycor())
+            # print(self.head.ycor(), self.segments[1].ycor())
             self.head.setheading(LEFT)

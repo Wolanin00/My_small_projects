@@ -3,6 +3,12 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+"""
+Project to add to my own spotify library the top 100 song from the Billboards Hot 100 from chosen time in past
+Client id and Client api key was removed
+"""
+
+
 CLIENT_ID = "REMOVED"
 CLIENT_SECRET = "REMOVED"
 
